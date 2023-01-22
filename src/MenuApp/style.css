@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Red Hat Mono", monospace !important;
+}
+.myfont {
+  font-family: "Red Hat Mono", monospace !important;
+}
+/* body */
+body {
+  background-color: azure;
+}
+.card-price {
+  float: right;
+  font-style: normal;
+  color: #9ca0a0;
+  font-weight: bold;
+}
+.navbarbox {
+  margin: 10px 0px;
+}
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  /* background-color: rgb(253, 253, 253); */
+}
+.navBar > li {
+  list-style: none;
+}
+
+.navBar > li > a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.link-btn:hover {
+  color: rgb(0, 89, 255);
+}
+
+/* btn */
+.link-btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+}
+/* card effects */
+
+.card-container:hover {
+  /* transform: scale(1.02); */
+  transition: 0.5s all ease-in-out;
+}
+
+.card-container:hover .card-img {
+  transform: scale(1.05);
+  transition: 0.5s all ease-in-out;
+}
+
+.card-container:hover .card-title {
+  color: rgb(0, 89, 255);
+  transition: 0.5s all ease-in-out;
+}

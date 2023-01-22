@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: cornsilk;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  min-width: 300px;
+  min-height: 300px;
+  
+}
+.mydata {
+  text-align: center;
+  padding: 10px;
+  color: #2a80d5;
+}
+
+.btn1,
+.btn2 {
+  margin: 10px !important;
+}
