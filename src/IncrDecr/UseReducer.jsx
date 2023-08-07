@@ -9,9 +9,10 @@ import Button from "@mui/material/Button";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../../node_modules/bootstrap/dist/js/bootstrap.min.js";
 import "./style.css";
+import { Incr } from "./Actions/Incr";
 const reducer = (state, action) => {
   if (action.type === "INCR") {
-    state = state + 1;
+    state = Incr(state);
   }
   if (state > 0 && action.type === "DECR") {
     state = state - 1;
